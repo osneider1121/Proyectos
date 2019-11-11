@@ -1,0 +1,17 @@
+package com.oman.service;
+
+import com.oman.repository.IPersonaRepo;
+import com.oman.repository.PersonaRepoImpl;
+
+public class PeronaServiceImpl implements IPersonaService{
+	
+	private IPersonaRepo repo;
+	
+	@Override
+	public void registrar(String nombre) {
+		repo= new PersonaRepoImpl();
+		repo.registrar(nombre);
+		
+	}
+
+}

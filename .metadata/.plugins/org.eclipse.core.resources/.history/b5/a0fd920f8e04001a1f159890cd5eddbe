@@ -1,0 +1,11 @@
+package com.soaint.service;
+import java.util.List;
+
+import com.soaint.model.Parametros;
+public interface IParametrosService {
+	List<Parametros> List();
+	void Add(Parametros parametros);
+	void Update(Parametros parametros);
+	void Delete(int id);
+	Parametros FindById(int id);
+}

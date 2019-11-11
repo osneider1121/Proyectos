@@ -1,0 +1,16 @@
+package com.oman.repository;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.oman.DemoConsolaApplication;
+
+public class PersonaRepoImpl2 implements IPersonaRepo{
+	private static Logger LOG = LoggerFactory.getLogger(DemoConsolaApplication.class);
+	@Override
+	public void registrar(String nombre) {
+		// TODO Auto-generated method stub
+		LOG.info("el nombrE es B:"+nombre);
+	}
+
+}

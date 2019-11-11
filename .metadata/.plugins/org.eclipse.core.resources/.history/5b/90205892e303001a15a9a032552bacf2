@@ -1,0 +1,11 @@
+package com.oman.repository;
+
+public class PersonaRepoImpl2 implements IPersonaRepo{
+
+	@Override
+	public void registrar(String nombre) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

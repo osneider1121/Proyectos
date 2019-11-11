@@ -1,0 +1,5 @@
+package com.oman.repository;
+
+public interface IPersona {
+
+}

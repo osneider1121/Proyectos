@@ -1,0 +1,14 @@
+package com.soaint;
+
+import org.springframework.boot.SpringApplication;
+
+import com.soaint.SOAINTApplication;
+
+public class SOAINTApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SOAINTApplication.class, args);
+
+	}
+
+}

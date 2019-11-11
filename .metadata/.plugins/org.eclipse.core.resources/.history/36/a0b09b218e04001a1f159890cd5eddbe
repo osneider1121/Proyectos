@@ -1,0 +1,44 @@
+package com.soaint.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.soaint.model.Persona;
+import com.soaint.repositorios.IPersonaRepo;
+import java.util.List;
+@Service
+public class personaServiceImpl implements IPersonaService{
+	@Autowired
+ 	private IPersonaRepo repo;
+
+	@Override
+	public List<Persona> List() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public void Add(Persona persona) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void Update(Persona persona) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void Delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public Persona FindById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

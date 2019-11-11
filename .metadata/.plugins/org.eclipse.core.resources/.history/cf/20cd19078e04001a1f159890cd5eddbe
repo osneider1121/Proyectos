@@ -1,0 +1,13 @@
+package com.soaint.service;
+
+import java.util.List;
+
+import com.soaint.model.Persona;
+
+public interface IPersonaService {
+	List<Persona> List();
+	void Add(Persona persona);
+	void Update(Persona persona);
+	void Delete(int id);
+	Persona FindById(int id);
+}

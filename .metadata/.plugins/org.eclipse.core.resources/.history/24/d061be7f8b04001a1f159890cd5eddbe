@@ -1,0 +1,13 @@
+package com.oman;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SoaintApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SoaintApplication.class, args);
+	}
+
+}

@@ -1,0 +1,46 @@
+package com.soaint.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.soaint.model.Parametros;
+import com.soaint.repository.IParametrosRepo;
+
+import java.util.List;
+@Service
+public class parametrosServiceImpl implements IParametrosService {
+	@Autowired
+	private IParametrosRepo repo;
+
+	@Override
+	public List<Parametros> list() {
+		return repo.findAll();
+	}
+
+	@Override
+	public void add(Parametros parametros) {
+		repo.save(parametros);
+		
+	}
+
+	@Override
+	public void update(Parametros parametros) {
+		repo.save(parametros);
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		repo.deleteById(id);
+		
+	}
+
+	@Override
+	public Parametros findByIdObj(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
